@@ -10,4 +10,5 @@ module "aws_cost_anomaly_detector" {
   raise_amount_absolute = var.raise_amount_absolute
   raise_amount_percent  = var.raise_amount_percent
   resource_tags         = var.resource_tags
+  pagerduty_endpoint    = ""
 }
