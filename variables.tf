@@ -27,6 +27,7 @@ variable "region" {
 variable "raise_amount_absolute" {
   description = "Absolute increase in USD to trigger the anomaly detector"
   type        = string
+  default     = "1000"
 }
 
 variable "raise_amount_percent" {
