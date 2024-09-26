@@ -8,8 +8,8 @@ This is a basic Terraform module which is wrapping [`aws-cost-anomaly-detector`]
 The most basic usage to monitor costs in the "prod" environment, simply: 
 
 ```
-module "ll_aws_cost_anomaly_detector" {
-  source                = "github.com/lincolnloop/ll-aws-cost-anomaly-detector"
+module "ll_aws_cost_anomaly_alerts" {
+  source                = "github.com/lincolnloop/ll-aws-cost-anomaly-alerts-module"
   environment           = "prod"  
 }
 ```
